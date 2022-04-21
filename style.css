@@ -24,8 +24,8 @@ img {
     border-radius: 10px;
     margin: 20px;
     float: left;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
     padding-right: 10px;
 }
 
@@ -34,7 +34,35 @@ div {
 }
 nav {
     text-align: center;
-    padding: 2px;
+    padding: 8px;
     margin-left: 2px
     ;
 }
+nav {
+    padding: 5px;
+    color: brown;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo {
+    cursor: pointer;
+    order: 3;
+    margin-left: auto;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0% 20px;
+}
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+}
+body {
+    background-image: url("https://www.wallpaperup.com/56015/abstract_
+    minimalistic_backgrounds_website.html"), url("");
+  }

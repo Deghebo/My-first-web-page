@@ -11,11 +11,17 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-p {
+ul {
+    list-style-type: none;
+}
 
+
+p {
     padding-top: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
     color: white;
+    text-align: center;
+
 }
 
 img {
@@ -84,8 +90,19 @@ footer {
     padding: 8px;
     margin-left: 3px;
     color: bisque;
+
 }
 
-a {
+footer a {
+    color: antiquewhite;
+}
+
+nav a {
     display: flex;
+}
+
+.contact.html p {
+    font-size: larger;
+    font-family: italic;
+    color: crimson;
 }

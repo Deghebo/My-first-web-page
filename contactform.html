@@ -3,12 +3,28 @@
     <head>
         <meta charset="utf-8">
         <title></title>
+        <link rel="stylesheet" href="style.css"
     </head>
-    <body>
-<form>
+<body>
+ <form action="contactform.html" method="post">
     <input type="text" name="email" placeholder="Write your e-mail..."> 
     <input type="text" name="email" value="Write your e-mail...">
-</form>
+   Male: <input type="radio" name="gender" value="Male">
+   Female: <input type="radio" name="gender" value="Female">
+  Prefer not to respond: <input type="radio" name="gender" value="Prefer not to respond
+   "checked>
 
-    </body>
+   <input type="password" name="pwd" placeholder="password">
+   <textarea name="message" placeholder="Write a message"></textarea>
+   <select name="car1">
+       <option value="car1">None</option>
+       <option value="car1">Toyota</option>
+       <option value="car1">Honda</option>
+       <option value="car2">Ford</option>
+       <option value="car3">Jaguar</option>
+   </select>
+   <button type="submit" name="submit">Submit</button>
+
+  </form>
+ </body>
 </html>

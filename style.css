@@ -1,7 +1,8 @@
 body {
     background-color: burlywood;
     margin-right: 10px;
-    margin-top: 0px;
+    margin-left: 5px;
+    margin-top: 2px;
     border-radius: 5px;
     text-align: center;
     background-image: url("images/abstract_minimalistic_backgrounds_website_1920x1200.jpg");
@@ -100,6 +101,7 @@ nav {
 }
 
 nav a {
+
     list-style: none;
     display: center;
     text-size-adjust: 10px;
@@ -112,11 +114,13 @@ button {
 }
 
 li {
+    margin-left: 7px;
     float: left;
     color: red;
 }
 
 ul {
+
     color: red;
     text-indent: 10px;
     height: auto;

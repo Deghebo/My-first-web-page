@@ -11,9 +11,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-ul {
-    list-style-type: none;
-}
+
 
 
 p {
@@ -25,9 +23,9 @@ p {
 }
 
 img {
-    width: 180px;
-    height: 180px;
-    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
     margin: 10px;
     float: left;
     padding-left: 10px;
@@ -121,7 +119,7 @@ li {
 a {
     display: block;
     padding: 10px;
-    background-color: none;
+    background-color: greenyellow;
 }
 
 

@@ -1,3 +1,12 @@
+<nav>
+    <li><a class="active" href="http://chalew.codes/">Home</a> 
+    </li> |
+    <li><a href="portfolio.html">Portfolio</a></li> |
+    <li><a href="about.html">About me</a></li> |
+    <li><a href="contact.html">Contact</a></li> |
+    <li><a href="cases.html" class="header-cases">Cases</a></li> 
+</nav>
+
 <br><p><b><i><u>Chalew Deghebo</u>:</i></b></p>
 
 <p>E-mail: 
@@ -19,8 +28,14 @@
     </head>
     <body>
 <form>
+    <form action="contactform.html" method="post">
+   
+     Male: <input type="radio" name="gender" value="Male">
+     Female: <input type="radio" name="gender" value="Female">
+     Prefer not to respond: <input type="radio" name="gender" value="Prefer not to respond "checked>
     <input type="text" name="email" placeholder="Write your e-mail..."> 
-    <input type="text" name="email" value="Write your e-mail...">
+    <textarea name="message" placeholder="Write a message"></textarea>
+    <button type="submit" name="submit">Submit</button>
 </form>
 
     </body>

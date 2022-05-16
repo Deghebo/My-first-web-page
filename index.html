@@ -1,79 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta namj3e="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My first web page</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <head>
 
-    <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <hr>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta namj3e="viewport" content="width=device-width, initial-scale=1.0"
+            />
+        <link rel="stylesheet" href="style.css">
+        <title>My first web page</title>
 
-    <title>My first web page</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+        // Shorthand for $( document ).ready()
 
-  <body>
+         $(function() {
+         $(".toggle").on("click", function(){
+             if($(".item").hasClass("active")){
+                 $(".item").removeClass("active");
+             }
+         
+         else {
+             $(".item").addClass("active");
+         }
+       })
+    });
+            
+        </script>
+    </head>
+    <body>
+        <header>
+            <img src="images/moments.jpg"
+                alt="width: 70px;height: 70px;">
+            <div class="navbar">
+                <nav>
+                    <!-- <a href="#" class="logo"> -->
+                    <!-- <img src="images/moments.jpg"></a> -->
+                    <!-- <a href="#" class="nav-branding">Deghebo's</a> -->
+                    <ul class="nav-menu">
 
-   
+                        <li class="nav-item">
+                            <a class="active" href="home.html">Home</a>
+                        </li>|
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>|
+                        <li class="nav-item">
+                            <a href="myPortfolio.html"
+                                class="nav-link">Portfolio</a>
+                        </li>|
+                        <li class="nav-item-sbutton">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>|
+                        <li><a href="cases.html" class="nav-item">Cases</a></li>
+                        <li class="toggle"><span class="bars"></span>
+                        </li>
 
-    <img src="images/moments_545275032176041_orig_res.jpg">
-     
-  <ul>
-    <nav>
-        <li><a class="active" href="http://chalew.codes/">Home</a> 
-        </li> |
-        <li><a href="portfolio.html">Portfolio</a></li> |
-        <li><a href="about.html">About me</a></li> |
-        <li><a href="contact.html">Contact</a></li> |
-        <li><a href="cases.html" class="header-cases">Cases</a></li> 
-    </nav>
-  </ul>
-<div> <br>
-    <p>Hello, my name is <strong>Chalew Deghebo.</strong></p>
-    <p>This is my first web site, I hope you will like it.</p>
+                        <!-- <div class="hamburger"> -->
+                        <!-- <span class="bar"></span> -->
+                        <!-- <span class="bar"></span> -->
+                        <!-- <span class="bar"></span> -->
+                    </div>
+                </ul>
+            </nav>
+        </header>
 
-      <br>
-    <p>  Refcode Lab is the best place to learn coding specially for Refugees and immigrants.
-    If you would like to join this great community, <a href="https://refcode.org/pages/index.html">Click here</a>
-    </p>
+        <p>Hello, my name is <strong>Chalew Deghebo.</strong></p>
+        <p>This is my first web site, I hope you will like it.</p><br>
+        <p> Refcode Lab is the best place to learn coding
+            specially
+            for refugees and immigrants.
+            If you would like to join this great community,<br><br>
+            <a class="refcode-link"
+                href="https://refcode.org/pages/index.html">Click
+                here</a>
+        </p>
+        <p>My goal after learning how to code is, to build my
+            own responsive and interactive web-site!
+        </p><br>
 
-     
-    <p>My goal after learning how to code is, to build my own responsive and interactive web-site!</p>
-  </div>
-     
-    <br>
-
-
-  <div>
-    <p>
-       <a href="https://www.linkedin.com/feed/?trk=seo-authwall-base_signin-form_submit">Contact me at my linkedin page</a>
-      </p>
-    </div>
-  <div>
-    <footer>
-    <a href="http://chalew.codes/">Welcome back to my web page!</a>
-  </footer>
-     <br>
-   <sub>Coded by Chalew Deghebo, Copyright&#169; protected.</sub> 
-    
-  </div>
-
-
-
-  </body>
-  <hr>
-
-</html>
-
- 
-  </body>
+        <div>
+            <footer style="text-color:chartreuse">
+                <a
+                    href="https://www.linkedin.com/in/chalew-deghebo">Contact
+                    me at my linkedin page.
+                </a>
+            </footer>
+        </div>
+        <br>
+        <!-- you can change the style of horizontal line like this: -->
+        <hr style="width:100%" , size="3" , color="white">
+        <div>
+            <footer>
+                <sub>Coded by Chalew Deghebo, Copyright&#169;
+                    protected.
+                </sub>
+            </footer>
+        </div>
+    </body>
 </html>

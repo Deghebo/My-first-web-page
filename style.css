@@ -9,8 +9,8 @@
 .logo {
     display: flex;
     border: solid lightblue 2px;
-    width: 95px;
-    height: 80px;
+    width: 1248px;
+    height: 120px;
     border-radius:40px 3px 10px;
     margin-left: 50px;
     margin-right: 200px;
@@ -25,14 +25,14 @@
 header {
     display: flex;
     overflow: hidden;
-    margin: 0px 1px;
+    margin: 0px 2px;
     border-radius: auto;
     image-rendering: pixelated;
     list-style: none;
     background-color: #ae3d3d;
     justify-content: space-between;
     align-items: center;
-    padding: 1px 1%;
+    padding: 35px 1px;
     height: 45px;
 }
 ul {
@@ -41,7 +41,6 @@ ul {
     padding: 0;
     display: flex;
 }
-
 div .navbar {
     max-width: 100%;
     position: relative;
@@ -124,8 +123,7 @@ div .nav-menu {
     padding: 2px 100px;
     margin-top: 0px;
 }
-
-.nav-item {
+li.nav-item {
     text-align: center;
     text-decoration-color: cornflowerblue;
     text-transform: capitalize;
@@ -152,6 +150,9 @@ div .nav-menu {
     position: relative;
     float: left;
     width: max-content;
+}
+ul .nav-links {
+
 }
 
 .nav_links li {
@@ -198,11 +199,12 @@ BODY
 body {
     width: 100%;
     min-height: 100vh;
-    /* overflow-y: scroll; */
+    font-weight: 600;
+    overflow-y: scroll;
     overflow-x: hidden;
     /* margin-right: auto; */
     /* margin-left: auto; */
-    margin: 10px auto;
+    margin: 5px auto;
     /* margin-bottom: 5px; */
     border-radius: 10px;
     text-align: center;

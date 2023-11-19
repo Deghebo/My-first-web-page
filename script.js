@@ -1,3 +1,5 @@
+var name = "name";
+
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const = document.getElementsByClassName('navbar-links')[0]
 

@@ -349,7 +349,9 @@ border-radius: 10px;
 }
 
 p {
-    width: inherit;
+    width: fit-content;
+    display: inline-block;
+    align-content: center;
     padding-top: 5px;
     margin-top: 20px;
     margin-left: 15px;
@@ -358,7 +360,6 @@ p {
     text-align: center;
     font-style: normal;
     font-size: 18px;
-    display: block;
 }
 
 /* p { */
@@ -401,7 +402,8 @@ p {
   color:#c7e3e1;
 }
 
-footer #copyright {
+footer {
+    background-color: dimgray;
     position: relative;
     align-content: center;
     /* display: block; */
@@ -415,6 +417,7 @@ footer #copyright {
     margin-left: 3px;
     color: black;
     width: 100%;
+    min-height: 20px;
     margin: 60px 50px;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -449,7 +452,7 @@ hr .line {
     margin-inline-start: auto;
     margin-inline-end: auto;
     border-style: inset;
-    border-width: 1px;
+    border-width: 5px;
     border-radius: 10px;
 }
 
